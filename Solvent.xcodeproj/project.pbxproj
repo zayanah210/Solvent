@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7552F0232AD2FBF600B6B5F0 /* SolventApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552F0222AD2FBF600B6B5F0 /* SolventApp.swift */; };
+		7552F0252AD2FBF600B6B5F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552F0242AD2FBF600B6B5F0 /* ContentView.swift */; };
+		7552F0272AD2FBF800B6B5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7552F0262AD2FBF800B6B5F0 /* Assets.xcassets */; };
+		7552F02A2AD2FBF800B6B5F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7552F0292AD2FBF800B6B5F0 /* Preview Assets.xcassets */; };
+		7552F02C2AD2FBF800B6B5F0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552F02B2AD2FBF800B6B5F0 /* Persistence.swift */; };
+		7552F02F2AD2FBF800B6B5F0 /* Solvent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7552F02D2AD2FBF800B6B5F0 /* Solvent.xcdatamodeld */; };
+		7552F0392AD2FBF800B6B5F0 /* SolventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552F0382AD2FBF800B6B5F0 /* SolventTests.swift */; };
+		7552F0432AD2FBF800B6B5F0 /* SolventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552F0422AD2FBF800B6B5F0 /* SolventUITests.swift */; };
+		7552F0452AD2FBF800B6B5F0 /* SolventUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7552F0442AD2FBF800B6B5F0 /* SolventUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7552F0352AD2FBF800B6B5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7552F0172AD2FBF600B6B5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7552F01E2AD2FBF600B6B5F0;
+			remoteInfo = Solvent;
+		};
+		7552F03F2AD2FBF800B6B5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7552F0172AD2FBF600B6B5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7552F01E2AD2FBF600B6B5F0;
+			remoteInfo = Solvent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7552F01F2AD2FBF600B6B5F0 /* Solvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7552F0222AD2FBF600B6B5F0 /* SolventApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolventApp.swift; sourceTree = "<group>"; };
+		7552F0242AD2FBF600B6B5F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7552F0262AD2FBF800B6B5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7552F0292AD2FBF800B6B5F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7552F02B2AD2FBF800B6B5F0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7552F02E2AD2FBF800B6B5F0 /* Solvent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solvent.xcdatamodel; sourceTree = "<group>"; };
+		7552F0342AD2FBF800B6B5F0 /* SolventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7552F0382AD2FBF800B6B5F0 /* SolventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolventTests.swift; sourceTree = "<group>"; };
+		7552F03E2AD2FBF800B6B5F0 /* SolventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7552F0422AD2FBF800B6B5F0 /* SolventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolventUITests.swift; sourceTree = "<group>"; };
+		7552F0442AD2FBF800B6B5F0 /* SolventUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolventUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7552F01C2AD2FBF600B6B5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7552F0312AD2FBF800B6B5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7552F03B2AD2FBF800B6B5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7552F0162AD2FBF600B6B5F0 = {
+			isa = PBXGroup;
+			children = (
+				7552F0212AD2FBF600B6B5F0 /* Solvent */,
+				7552F0372AD2FBF800B6B5F0 /* SolventTests */,
+				7552F0412AD2FBF800B6B5F0 /* SolventUITests */,
+				7552F0202AD2FBF600B6B5F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7552F0202AD2FBF600B6B5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7552F01F2AD2FBF600B6B5F0 /* Solvent.app */,
+				7552F0342AD2FBF800B6B5F0 /* SolventTests.xctest */,
+				7552F03E2AD2FBF800B6B5F0 /* SolventUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7552F0212AD2FBF600B6B5F0 /* Solvent */ = {
+			isa = PBXGroup;
+			children = (
+				7552F0222AD2FBF600B6B5F0 /* SolventApp.swift */,
+				7552F0242AD2FBF600B6B5F0 /* ContentView.swift */,
+				7552F0262AD2FBF800B6B5F0 /* Assets.xcassets */,
+				7552F02B2AD2FBF800B6B5F0 /* Persistence.swift */,
+				7552F02D2AD2FBF800B6B5F0 /* Solvent.xcdatamodeld */,
+				7552F0282AD2FBF800B6B5F0 /* Preview Content */,
+			);
+			path = Solvent;
+			sourceTree = "<group>";
+		};
+		7552F0282AD2FBF800B6B5F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7552F0292AD2FBF800B6B5F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7552F0372AD2FBF800B6B5F0 /* SolventTests */ = {
+			isa = PBXGroup;
+			children = (
+				7552F0382AD2FBF800B6B5F0 /* SolventTests.swift */,
+			);
+			path = SolventTests;
+			sourceTree = "<group>";
+		};
+		7552F0412AD2FBF800B6B5F0 /* SolventUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7552F0422AD2FBF800B6B5F0 /* SolventUITests.swift */,
+				7552F0442AD2FBF800B6B5F0 /* SolventUITestsLaunchTests.swift */,
+			);
+			path = SolventUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7552F01E2AD2FBF600B6B5F0 /* Solvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7552F0482AD2FBF800B6B5F0 /* Build configuration list for PBXNativeTarget "Solvent" */;
+			buildPhases = (
+				7552F01B2AD2FBF600B6B5F0 /* Sources */,
+				7552F01C2AD2FBF600B6B5F0 /* Frameworks */,
+				7552F01D2AD2FBF600B6B5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solvent;
+			productName = Solvent;
+			productReference = 7552F01F2AD2FBF600B6B5F0 /* Solvent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7552F0332AD2FBF800B6B5F0 /* SolventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7552F04B2AD2FBF800B6B5F0 /* Build configuration list for PBXNativeTarget "SolventTests" */;
+			buildPhases = (
+				7552F0302AD2FBF800B6B5F0 /* Sources */,
+				7552F0312AD2FBF800B6B5F0 /* Frameworks */,
+				7552F0322AD2FBF800B6B5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7552F0362AD2FBF800B6B5F0 /* PBXTargetDependency */,
+			);
+			name = SolventTests;
+			productName = SolventTests;
+			productReference = 7552F0342AD2FBF800B6B5F0 /* SolventTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7552F03D2AD2FBF800B6B5F0 /* SolventUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7552F04E2AD2FBF800B6B5F0 /* Build configuration list for PBXNativeTarget "SolventUITests" */;
+			buildPhases = (
+				7552F03A2AD2FBF800B6B5F0 /* Sources */,
+				7552F03B2AD2FBF800B6B5F0 /* Frameworks */,
+				7552F03C2AD2FBF800B6B5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7552F0402AD2FBF800B6B5F0 /* PBXTargetDependency */,
+			);
+			name = SolventUITests;
+			productName = SolventUITests;
+			productReference = 7552F03E2AD2FBF800B6B5F0 /* SolventUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7552F0172AD2FBF600B6B5F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					7552F01E2AD2FBF600B6B5F0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					7552F0332AD2FBF800B6B5F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7552F01E2AD2FBF600B6B5F0;
+					};
+					7552F03D2AD2FBF800B6B5F0 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 7552F01E2AD2FBF600B6B5F0;
+					};
+				};
+			};
+			buildConfigurationList = 7552F01A2AD2FBF600B6B5F0 /* Build configuration list for PBXProject "Solvent" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7552F0162AD2FBF600B6B5F0;
+			productRefGroup = 7552F0202AD2FBF600B6B5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7552F01E2AD2FBF600B6B5F0 /* Solvent */,
+				7552F0332AD2FBF800B6B5F0 /* SolventTests */,
+				7552F03D2AD2FBF800B6B5F0 /* SolventUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7552F01D2AD2FBF600B6B5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7552F02A2AD2FBF800B6B5F0 /* Preview Assets.xcassets in Resources */,
+				7552F0272AD2FBF800B6B5F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7552F0322AD2FBF800B6B5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7552F03C2AD2FBF800B6B5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7552F01B2AD2FBF600B6B5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7552F02C2AD2FBF800B6B5F0 /* Persistence.swift in Sources */,
+				7552F0252AD2FBF600B6B5F0 /* ContentView.swift in Sources */,
+				7552F0232AD2FBF600B6B5F0 /* SolventApp.swift in Sources */,
+				7552F02F2AD2FBF800B6B5F0 /* Solvent.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7552F0302AD2FBF800B6B5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7552F0392AD2FBF800B6B5F0 /* SolventTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7552F03A2AD2FBF800B6B5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7552F0452AD2FBF800B6B5F0 /* SolventUITestsLaunchTests.swift in Sources */,
+				7552F0432AD2FBF800B6B5F0 /* SolventUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7552F0362AD2FBF800B6B5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7552F01E2AD2FBF600B6B5F0 /* Solvent */;
+			targetProxy = 7552F0352AD2FBF800B6B5F0 /* PBXContainerItemProxy */;
+		};
+		7552F0402AD2FBF800B6B5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7552F01E2AD2FBF600B6B5F0 /* Solvent */;
+			targetProxy = 7552F03F2AD2FBF800B6B5F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7552F0462AD2FBF800B6B5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7552F0472AD2FBF800B6B5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7552F0492AD2FBF800B6B5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solvent/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kiwite.Solvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7552F04A2AD2FBF800B6B5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solvent/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kiwite.Solvent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7552F04C2AD2FBF800B6B5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kiwite.SolventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solvent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solvent";
+			};
+			name = Debug;
+		};
+		7552F04D2AD2FBF800B6B5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kiwite.SolventTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solvent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Solvent";
+			};
+			name = Release;
+		};
+		7552F04F2AD2FBF800B6B5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kiwite.SolventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solvent;
+			};
+			name = Debug;
+		};
+		7552F0502AD2FBF800B6B5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kiwite.SolventUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solvent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7552F01A2AD2FBF600B6B5F0 /* Build configuration list for PBXProject "Solvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7552F0462AD2FBF800B6B5F0 /* Debug */,
+				7552F0472AD2FBF800B6B5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7552F0482AD2FBF800B6B5F0 /* Build configuration list for PBXNativeTarget "Solvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7552F0492AD2FBF800B6B5F0 /* Debug */,
+				7552F04A2AD2FBF800B6B5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7552F04B2AD2FBF800B6B5F0 /* Build configuration list for PBXNativeTarget "SolventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7552F04C2AD2FBF800B6B5F0 /* Debug */,
+				7552F04D2AD2FBF800B6B5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7552F04E2AD2FBF800B6B5F0 /* Build configuration list for PBXNativeTarget "SolventUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7552F04F2AD2FBF800B6B5F0 /* Debug */,
+				7552F0502AD2FBF800B6B5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7552F02D2AD2FBF800B6B5F0 /* Solvent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7552F02E2AD2FBF800B6B5F0 /* Solvent.xcdatamodel */,
+			);
+			currentVersion = 7552F02E2AD2FBF800B6B5F0 /* Solvent.xcdatamodel */;
+			path = Solvent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7552F0172AD2FBF600B6B5F0 /* Project object */;
+}
